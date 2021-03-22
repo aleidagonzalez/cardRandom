@@ -1,1 +1,51 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+.card {
+  display: flex col-3;
+
+  margin: auto;
+  height: 400px;
+  width: 250px;
+  background-color: white;
+  border-radius: 3%;
+  border: 1px solid black;
+  padding: 20px;
+}
+div.icono {
+  height: 30%;
+  font-size: 80px;
+  flex-direction: row;
+}
+div.topSuit {
+  justify-content: flex-start;
+}
+.number {
+  flex-direction: row;
+  justify-content: center;
+  height: 40%;
+  font-size: 80px;
+}
+div.bottomSuit {
+  justify-content: flex-end;
+}
+.hearts {
+  color: red;
+  content: "\f004";
+  margin: -2px;
+}
+.spades {
+  margin: -2px;
+  content: "\2660";
+}
+.shamrocks {
+  content: "\2663";
+  margin: -2px;
+}
+.diamonds {
+  color: red;
+  margin: -2px;
+  content: "\2665";
+}
